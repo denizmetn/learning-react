@@ -11,6 +11,9 @@ function App() {
     { title: "New Phone", amount: 90.5, date: new Date(2022, 2, 28) },
     { title: "A Desk (Wooden)", amount: 140.2, date: new Date(2021, 1, 16) },
   ];
+  const[expenses,setExpenses]=useState([]);
+  const addExpense([...expenses,expense]);
+
 
   return (
     <div>

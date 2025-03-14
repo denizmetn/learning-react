@@ -3,11 +3,11 @@ import ExpenseForm from "../NewExpense/ExpenseForm";
 const NewExpense = ()=> {
     return (
 <div className="new-expense">
-        <ExpenseForm></ExpenseForm>
+        <ExpenseForm onAdd></ExpenseForm>
     </div>
-    )
+    );
     
-};
+}
 
 export default NewExpense;
 
